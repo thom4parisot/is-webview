@@ -11,8 +11,8 @@
       method = 'setAttribute';
 
       if (
-        (el.className.contains('is-webview') && result)
-        || (el.className.contains('is-not-webview') && !result)
+        (el.classList.contains('is-webview') && result)
+        || (el.classList.contains('is-not-webview') && !result)
       ){
         method = 'removeAttribute';
       }
