@@ -1,0 +1,5 @@
+{
+  "name": "is-webview",
+  "description": "A JavaScript library to indicate if we are dealing with a WebView or a Web page.",
+  "display": "minimal-ui"
+}
